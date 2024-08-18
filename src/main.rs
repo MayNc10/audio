@@ -1,3 +1,4 @@
+use audio::envelope::{adhsr, Envelope};
 use cpal::traits::{DeviceTrait, HostTrait, StreamTrait};
 use cpal::{Data, FromSample, Sample, SampleFormat};
 
